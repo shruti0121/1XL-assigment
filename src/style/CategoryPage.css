@@ -1,0 +1,99 @@
+/* src/styles/CategoryPage.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.category-section {
+    /* padding: 40px 20px; */
+    background-color: #FFF2B3;
+  }
+  
+  .category-header {
+    /* text-align: left; */
+    align-items: left;
+    /* margin-bottom: 40px; */
+  }
+  
+  .category-header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 107px;
+    color: black;
+  }
+  
+  .category-content {
+    margin-left: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+  
+  .category-text {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+  
+  .category-text h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .category-text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .get-started-button {
+    width: 146px;
+    height: 49px;
+    background-color: #C7E7E1;
+    color: #124C5F;
+
+    font-size: 16px;
+  }
+  
+  .category-image {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: top;
+    margin-right: 40px;
+  }
+  
+  .category-image img {
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    
+    
+  }
+  
+  .category-navigation {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 12px;
+    margin-top: 90px;
+  }
+  
+  .nav-button {
+    color: black;
+    background-color: transparent;
+    /* border: none; */
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .nav-button.active {
+    background-color: #ffa726; /* Change the background color for active tab */
+  }

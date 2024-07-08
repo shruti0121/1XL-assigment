@@ -1,0 +1,91 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; 
+     /* Align items vertically centered */
+     /* Add cursor pointer to indicate clickable */
+  }
+  
+  .logo img {
+    width: 64.81px; /* Adjust this value to control the logo size */
+    height: 67.16px; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between the image and the text */
+    margin-left: 50px;
+    align-items: center;/* Space between the image and the text */
+  }
+
+   #G{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #FFAA00;
+  } 
+
+  #local{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #FFE55E;
+  } 
+  
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    gap: 40px;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0); /* Default link color */
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    color: #FFD700; /* Color for active link */
+  }
+  
+  .auth-buttons button {
+    margin-right: 50px;
+  }
+
+  #btu-singin{
+    width: 146px;
+    height: 49px;
+    background-color: #124C5F;
+    margin-right: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+  } 
+
+  #btu-register{
+    width: 146px;
+    height: 49px;
+    background-color: #C7E7E1;
+    color: #124C5F;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+  }
